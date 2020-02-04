@@ -1,0 +1,20 @@
+
+
+<h3>You selected the id {{departmentId}}</h3>
+
+<div>
+    <button (click)="goProducts()">Products</button>
+    <button (click)="goServices()">Services</button>
+    
+    <!--Router Outlet is to navigate btw the children-->
+    <router-outlet></router-outlet>
+</div>
+
+<div>
+    <button (click)="goPrevious()">Previous</button>
+    <button (click)="goNext()">Next</button>
+</div>
+
+<div>
+    <button (click)="goBack()">Back</button>
+</div>
